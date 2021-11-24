@@ -63,11 +63,11 @@ def main():
                         print(line);
                         logs.append(line);
                     if "\"UpdateItemJsonRequest" in line:
-                        #print("Email service: Gmail")
+                        #print("Email service: Hotmail")
                         print(line);
                         logs.append(line);
                     if "\"3\",\"2\"" in line:
-                        #print("Email service: Outlook")
+                        #print("Email service: Gmail")
                         print(line);
                         logs.append(line);
             infile.close()
