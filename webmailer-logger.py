@@ -59,13 +59,17 @@ def main():
                         getmail = line.split(" - ")[1];
                         print(getmail)
                     if "\"newMessage\":true" in line:
+                        #print("Email service: Yahoo")
+                        print(line);
+                        logs.append(line);
+                    if "\"UpdateItemJsonRequest" in line:
+                        #print("Email service: Gmail")
+                        print(line);
+                        logs.append(line);
+                    if "\"3\",\"2\"" in line:
                         #print("Email service: Outlook")
                         print(line);
                         logs.append(line);
-                    if "\"CreateItemJasonRequest:" in line:
-                        #print("Email service: Outlook")
-                        logs.append(line);
-                        print(line);
             infile.close()
 
 
