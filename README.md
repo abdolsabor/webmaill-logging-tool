@@ -11,3 +11,5 @@ The tool creates a dump file as the user closes the browser and creates the new 
 
 The code also produces the performance test reports of the functions using memory_profiler.
 
+The python file webmail-logging-tool.py gives the complete information about the process and algorithm used to generate logs about any new email sent over Gmail, YahooMail and Outlook webmail service.
+
